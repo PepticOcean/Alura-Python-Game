@@ -15,7 +15,7 @@ while(current_atempt <= maximum_attempts):
 
     if(choice < 1 or choice > 100):
         print("Por favor, digite um número entre 1 e 100");
-        continue;
+        continue; # fazendo o código voltar para o começo do laço
 
 
     if(choice == secret_number): 
