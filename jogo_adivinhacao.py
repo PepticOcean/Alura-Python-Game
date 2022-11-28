@@ -1,13 +1,15 @@
+import random;
+
 print("**********************************");
 print("Bem-vindo ao jogo de adivinhação");
 print("**********************************");
 
-secret_number = 42; # Número sorteado
+secret_number = random.randint(1,100); # Sorteando um número
 maximum_attempts = 3; # Número máximo de tentativas
 current_atempt = 1; # Tentativa atual
 
 while(current_atempt <= maximum_attempts):
-
+    print(secret_number);
     print("Tentativa atual: {} de {}".format(current_atempt,maximum_attempts));
     choice = int(input("Digite um número de 1 a 100: ")); # Transformando o input "String" para "Int"
     print("Você digitou o número" , choice);
