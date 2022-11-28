@@ -16,4 +16,6 @@ else:
     if(choice > secret_number):
         print("O número que você digitou é maior do que o número sorteado");
 
-print("Fim de Jogo");
+print("********************************************************************");
+print("FIM DE JOGO (APERTE F5 PARA JOGAR NOVAMENTE");
+print("********************************************************************");
